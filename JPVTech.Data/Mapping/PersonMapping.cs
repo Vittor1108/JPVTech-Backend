@@ -40,6 +40,8 @@ namespace JPVTech.Data.Mapping
 
             builder.HasIndex(x => x.CPF)
                 .IsUnique();
+
+            //
         }
     }
 }
